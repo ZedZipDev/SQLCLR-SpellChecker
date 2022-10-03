@@ -15,7 +15,7 @@ DROP ASSEMBLY SqlSpellChecker
 GO 
 CREATE ASSEMBLY SqlSpellChecker FROM 'E:\SqlSpellChecker\bin\Release\SqlSpellChecker.dll' 
 GO 
-CREATE FUNCTION SpellChecker(@strinput NVARCHAR(1024)) 
+CREATE FUNCTION SpellCheck(@strinput NVARCHAR(1024)) 
 RETURNS NVARCHAR(1024) 
 AS EXTERNAL NAME SqlSpellChecker.UserDefinedFunctions.SpellChecker 
 GO 
