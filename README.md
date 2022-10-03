@@ -21,7 +21,7 @@ AS EXTERNAL NAME SqlSpellChecker.UserDefinedFunctions.SpellChecker
 GO 
 
 --The function can be used like: 
-"select dbo.SpellCheck(N'indienz')
+select dbo.SpellCheck(N'indienz')
 -------
 indians
 ```
