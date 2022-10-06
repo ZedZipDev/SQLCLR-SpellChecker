@@ -3,6 +3,9 @@
 This is the SQLCLR implementation of the SpellCorrect based on Peter Norvig's idea
 https://norvig.com/spell-correct.html 
 
+### License
+Apache 2.0
+
 ### Using.
 
 On the first call it loads the words list form the current database and then uses it. 
