@@ -1,1 +1,3 @@
-*.Smalltalk linguist-detectable=false
+linguist-detectable=false
+*.cs linguist-detectable=true
+*.sql linguist-detectable=true
